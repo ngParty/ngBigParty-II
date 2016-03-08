@@ -51,12 +51,15 @@
             "time": "5:00 - 5:10pm",
             "order": 0,
             "description": [
-              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at blanditiis dignissimos et, eveniet explicabo fugiat necessitatibus, nulla quos temporibus totam, unde vitae. Accusantium aliquam illo magni minima possimus rerum?"
+              "Well, ngParty was founded 11 months ago and we already achieved many great thinks for our community!",
+              "This is just another awesome achievement of spreading know how and knowledge, throughout local Czech dev community and outside our country borders",
+              "We have a very specific one word saying in our community: #devsUnited and we mean it!",
+              "Let's get this big party started!"
             ]
           }
         },
         {
-          "name": "Igor Minar",
+          "name": "Igor Minár",
           "job": "Angular team lead at Google",
           "bio": [
             "Igor is a software engineer at Google. He is a lead on the Angular project, practitioner of test driven development, open source enthusiast, hacker.",
@@ -64,11 +67,13 @@
           ],
           "picture": "assets/images/speakers/igor-minar.png",
           "talk": {
-            "title": "Q&A via hangout",
+            "title": "Angular 2 behind the scenes",
             "time": "6:00 - 6:30pm",
             "order": 3,
             "description": [
-              "We will ask Igor everything about Angular, go to behind scenes of design decisions and much more. You don't wanna miss this one!"
+              "We will ask Igor everything about Angular, go behind the scenes of design decisions and much more.",
+              "You don't wanna miss this one!",
+              "This session will be on Air via Google Hangouts"
             ]
           },
           "contact": {
@@ -90,7 +95,9 @@
             "time": "5:10 - 5:40pm",
             "order": 1,
             "description": [
-              "Angular 1 helped us to build amazing apps with easy. But today we have a new Angular. Angular 2 at your service. Martin will tell you all you need to know to get started with this new and shinny multi-platform framework"
+              "Angular 1 helped us to build amazing apps with ease... but today's web apps are facing new challenges, going even beyond web platform.",
+              "How to solve them you may ask... Well let me tell you that there is a new Angular. Angular 2 at your service...",
+              "Martin will tell you all you need to know to get started with this new and shinny multi-platform framework"
             ]
           },
           "contact": {
@@ -133,7 +140,8 @@
             "time": "7:10 - 7:40pm",
             "order": 6,
             "description": [
-              "What is this thing called RxJs? What is a Stream or an Observable? Viliam will explain all those buzzwords and make you understand why they are so important, not only in Angular world..."
+              "What is this thing called RxJs? What is a Stream or an Observable?",
+              "Viliam will explain all those buzzwords and make you understand why they are so important, not only in Angular world..."
             ]
           },
           "contact": {
@@ -155,7 +163,9 @@
             "time": "7:10 - 7:40pm",
             "order": 4,
             "description": [
-              "Do you want to look into the future? How will we create web and mobile applications in 2017? Well, it's possible even without inventing time machine. Let's just take alpha/beta-versions of the most promising frameworks, add some magic and cook the app. The reference app for all the developers. Web or mobile - who cares, there will be only fine line between these in nearest future. Sounds ambitious? 100%! But we love ventures and being on cutting edge of web technologies, so let's go for it!"
+              "Do you want to look into the future? How will we create web and mobile applications in 2017?",
+              "Well, it's possible even without inventing time machine. Let's just take alpha/beta-versions of the most promising frameworks, add some magic and cook the app. The reference app for all the developers. Web or mobile - who cares, there will be only fine line between these in nearest future.",
+              "Sounds ambitious? 100%! But we love ventures and being on cutting edge of web technologies, so let's go for it!"
             ]
           },
           "contact": {
@@ -206,9 +216,14 @@
         },
         {
           "name": "Christoffer Noring",
-          "job": "Software engineer",
+          "job": "Software Developer, Blogger, Educator",
           "bio": [
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti dignissimos dolore, enim et eum excepturi expedita inventore, minus molestiae neque nostrum odio officiis sint unde velit, voluptas voluptatem. Accusamus animi at est et exercitationem impedit ipsam officia quisquam sed? Aliquid aut dignissimos dolores ipsam officiis porro quidem repudiandae tempora?"
+            "Developer since his 10 years..., organizer for 1100+ people for the following groups:",
+            "- Angular Gothenburg",
+            "- Frontend Gothenburg",
+            "- Software Craftsmanship Gothenburg",
+            "- Angular Stockholm",
+            "and btw the friendliest developer you will ever meet, possibly :)"
           ],
           "picture": "assets/images/speakers/christoffer-noring.jpg",
           "talk": {
@@ -216,7 +231,9 @@
             "time": "9:40 - 10:10pm",
             "order": 8,
             "description": [
-              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti dignissimos dolore, enim et eum excepturi expedita inventore, minus molestiae neque nostrum odio officiis sint unde velit, voluptas voluptatem. Accusamus animi at est et exercitationem impedit ipsam officia quisquam sed? Aliquid aut dignissimos dolores ipsam officiis porro quidem repudiandae tempora?"
+              "Angular 2 and server side rendering? Is this a joke or a beautiful dream? Time to wake up fellow developers! Let's talk about server side rendering and what changes and what doesn't change when you go serverside... yes with Angular 2",
+              "Christoffer will cover basic concepts, starting from installing angular 2 server plugin, to finishing up with how to setup your app to be rendered through express and NodeJS.",
+              "Looks good right? you bet! Angular 2 is your friend... from now on, also on back-end..."
             ]
           },
           "contact": {
