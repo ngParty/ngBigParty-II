@@ -135,9 +135,11 @@
               </div>
               <div class="talk__content">
                 <md-icon hide-xs>info_outline</md-icon>
-                <p ng-repeat="description in ::speaker.talk.description">
-                  {{ ::description }}
-                </p>
+                <div>
+                  <p ng-repeat="description in ::speaker.talk.description">
+                    {{ ::description }}
+                  </p>
+                </div>
               </div>
             </div>
           </md-list-item>
