@@ -102,7 +102,8 @@
           "name": "Mario Vejlupek",
           "job": "Software engineer at EmbedIT",
           "bio": [
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti dignissimos dolore, enim et eum excepturi expedita inventore, minus molestiae neque nostrum odio officiis sint unde velit, voluptas voluptatem. Accusamus animi at est et exercitationem impedit ipsam officia quisquam sed? Aliquid aut dignissimos dolores ipsam officiis porro quidem repudiandae tempora?"
+            "Mario is DevOps trapped in Developer body. After few years of debugging bugs as hosting administrator, he decided to start creating/fixing his own bugs. Started as PHP noob, fell in love with Ruby and reborn as JavaScript developer. Currently he is professional coffee taster at EmbedIT.",
+            "Mario loves patterns, logic and simplicity. He spend most of his productive time contributing to opensource and keep ngParty meetup group up and running."
           ],
           "picture": "assets/images/speakers/mario-vejlupek.jpg",
           "talk": {
@@ -110,7 +111,7 @@
             "time": "5:10 - 5:40pm",
             "order": 5,
             "description": [
-              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at blanditiis dignissimos et, eveniet explicabo fugiat necessitatibus, nulla quos temporibus totam, unde vitae. Accusantium aliquam illo magni minima possimus rerum?"
+              "Angular 2 is indeed awesome, don't you think?! How can I start using it right now for building new and shiny apps? Do I need to know all these things like Gulp/Grunt/Whatnot? Don't fear fellow developers! Mario will show you how to get up and running with production ready dev stack, without hassle. Spoiler alert: Webpack batteries included"
             ]
           },
           "contact": {
