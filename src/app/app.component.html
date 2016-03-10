@@ -89,9 +89,7 @@
           </md-card-title>
 
           <md-card-content>
-            <p ng-repeat="paragraph in ::speaker.bio">
-              {{ ::paragraph }}
-            </p>
+            <p ng-repeat="paragraph in ::speaker.bio" ng-bind-html="::paragraph | linky:'_blank'"></p>
           </md-card-content>
           <md-divider></md-divider>
           <md-card-actions layout="row" layout-align="end center">
