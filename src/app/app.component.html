@@ -171,7 +171,7 @@
       <p ng-repeat="content in ::$ctrl.data.sections.sponsors.content">
         {{ ::content }}
       </p>
-      <div layout-xs="column" layout="column" layout-align="center center" class="sponsors">
+      <div layout-align="center center" class="sponsors">
 
         <figure ng-repeat="sponsor in ::$ctrl.data.sections.sponsors.companies">
           <a ng-href="{{ sponsor.web }}"><img ng-src="{{ ::sponsor.logo }}" alt="{{ ::sponsor.name }}"></a>
@@ -202,6 +202,9 @@
     <footer class="section footer">
 
       <ul class="social" layout="row" layout-xs="column" layout-align="center">
+        <li>
+          <md-button ng-href="{{ ::$ctrl.data.ngParty.contact.email }}">get in touch</md-button>
+        </li>
         <li>
           <md-button ng-href="{{ ::$ctrl.data.ngParty.links.social.github }}">github</md-button>
         </li>

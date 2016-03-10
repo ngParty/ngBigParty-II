@@ -5,6 +5,9 @@
       "large":"assets/images/ngBigParty.png"
     },
     "copyright":"&copy; ngPartyCz 2016 made with love and ng-metadata",
+    "contact": {
+      "email": "mailto:info@ngparty.cz"
+    },
     "links":{
       "social":{
         "github": "https://github.com/ngParty",
