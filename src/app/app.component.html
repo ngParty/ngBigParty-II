@@ -2,7 +2,7 @@
 
   <md-toolbar layout="row" layout-align="center center">
     <img ng-src="{{ ::$ctrl.data.ngParty.logo.tiny }}" alt="ngParty logo">
-    <b>ngBigParty II.</b>
+    <b>ngBigParty II</b>
   </md-toolbar>
   <md-list>
     <md-list-item
@@ -21,7 +21,7 @@
     <md-button class="menu" ng-click="$ctrl.toggleSidenav()" aria-label="Show menu">
       <md-icon>menu</md-icon>
     </md-button>
-    <h1>ngBigParty II.</h1>
+    <h1>ngBigParty II</h1>
   </md-toolbar>
 
   <md-content>
@@ -41,7 +41,6 @@
             ng-href="{{ ::$ctrl.data.main.getTicketLink }}"
             class="md-primary md-raised md-accent hero-btn"
           >
-            <md-icon>event_seat</md-icon>
             {{ ::$ctrl.data.main.getTicketBtn }}
           </md-button>
         </div>
@@ -172,11 +171,11 @@
       <p ng-repeat="content in ::$ctrl.data.sections.sponsors.content">
         {{ ::content }}
       </p>
-      <div layout-xs="column" layout="row" layout-align="center center" class="sponsors">
+      <div layout-align="center center" class="sponsors">
 
         <figure ng-repeat="sponsor in ::$ctrl.data.sections.sponsors.companies">
           <a ng-href="{{ sponsor.web }}"><img ng-src="{{ ::sponsor.logo }}" alt="{{ ::sponsor.name }}"></a>
-          <!--<figcaption>{{ ::sponsor.name }}</figcaption>-->
+          <figcaption>{{ ::sponsor.description }}</figcaption>
         </figure>
 
       </div>
@@ -184,7 +183,6 @@
         <p ng-repeat="footer in ::$ctrl.data.sections.sponsors.footer">
           {{ ::footer }}
         </p>
-        <md-button ng-href="{{ ::$ctrl.data.ngParty.links.social.meetup }}" class="md-accent" flex-xs="">get in touch</md-button>
       </div>
     </section>
 
@@ -205,6 +203,9 @@
 
       <ul class="social" layout="row" layout-xs="column" layout-align="center">
         <li>
+          <md-button ng-href="{{ ::$ctrl.data.ngParty.contact.email }}">get in touch</md-button>
+        </li>
+        <li>
           <md-button ng-href="{{ ::$ctrl.data.ngParty.links.social.github }}">github</md-button>
         </li>
         <li>
@@ -221,7 +222,7 @@
         </li>
       </ul>
 
-      <small>&copy; ngPartyCz 2016</small>
+      <small>&copy; ngPartyCz 2016 made with love and ng-metadata</small>
 
     </footer>
   </md-content>
@@ -229,15 +230,15 @@
   <md-fab-speed-dial
     md-direction="{{ $ctrl.$mdMedia('xs') ? 'up' : 'down'}}"
     ng-class="{'md-fab-bottom-right':$ctrl.$mdMedia('xs'),'md-fab-top-right':$ctrl.$mdMedia('gt-xs')}"
-    class="md-fling "
+    class="md-fling"
   >
     <md-fab-trigger>
-      <md-button aria-label="share this event" class="md-fab md-warn">
+      <md-button aria-label="share this event" class="md-fab md-accent">
         <md-icon>share</md-icon>
       </md-button>
     </md-fab-trigger>
     <md-fab-actions>
-      <md-button href="http://twitter.com/share?text=ahoj honvo" aria-label="Twitter" class="md-fab md-raised md-mini">
+      <md-button href="http://twitter.com/share?text=#ngBigParty II" aria-label="Twitter" class="md-fab md-raised md-mini">
         <md-icon md-svg-src="twitter" aria-label="Twitter"></md-icon>
       </md-button>
       <md-button aria-label="Facebook" class="md-fab md-raised md-mini">

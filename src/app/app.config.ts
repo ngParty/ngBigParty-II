@@ -11,7 +11,7 @@ export class Configure {
     $mdIconProvider: ng.material.IIconProvider,
     $mdThemingProvider: ng.material.IThemingProvider
   ) {
-    
+
     $sceDelegateProvider.resourceUrlWhitelist( [
       'self',
       'https://www.google.com/maps/**'
@@ -29,10 +29,31 @@ export class Configure {
       .icon( "facebook", "img/icons/facebook.svg", 512 )
     ;
 
+    $mdThemingProvider.definePalette('ngBigParty', {
+      '50': 'ff00ff',
+      '100': 'ff00ff',
+      '200': 'ff00ff',
+      '300': 'ff00ff',
+      '400': 'ff00ff',
+      '500': 'FF2645',
+      '600': 'ff00ff',
+      '700': 'ff00ff',
+      '800': 'ff00ff',
+      '900': 'ff00ff',
+      'A100': 'ff00ff',
+      'A200': '180555',
+      'A400': 'ff00ff',
+      'A700': 'ff00ff',
+      'contrastDefaultColor': 'light',    // whether, by default, text (contrast)
+                                          // on this palette should be dark or light
+      'contrastDarkColors': ['50', '100', //hues which contrast should be 'dark' by default
+       '200', '300', '400', 'A100'],
+      'contrastLightColors': undefined    // could also specify this if default was 'dark'
+    });
 
     $mdThemingProvider.theme( 'default' )
-      .primaryPalette( 'pink' )
-      .accentPalette( 'indigo' )
+      .primaryPalette( 'ngBigParty' )
+      .accentPalette( 'ngBigParty' )
     ;
 
   }

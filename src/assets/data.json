@@ -1,22 +1,25 @@
 {
   "ngParty": {
     "logo": {
-      "tiny":"assets/images/ng-party-logo-red_tiny.png",
-      "large":"assets/images/ng-party-logo-red_large.png"
+      "tiny":"assets/images/ngBigParty_tiny.png",
+      "large":"assets/images/ngBigParty.png"
     },
-    "copyright":"&copy; ngPartyCz 2016",
+    "copyright":"&copy; ngPartyCz 2016 made with love and ng-metadata",
+    "contact": {
+      "email": "mailto:info@ngparty.cz"
+    },
     "links":{
       "social":{
         "github": "https://github.com/ngParty",
         "meetup": "http://www.meetup.com/ngParty",
-        "slack": "https://ngparty.slack.com/",
+        "slack": "http://slack.ngparty.cz",
         "twitter": "https://twitter.com/ngPartyCz",
         "google": "https://plus.google.com/communities/112542439741592692861/stream/6a8ebe35-3de1-4736-9d28-712dae5fd286"
       }
     }
   },
   "main": {
-    "title": "BigParty II.",
+    "title": "BigParty II",
     "subtitle": "Angular 2 is the new Angular",
     "date": "30th March, Prague",
     "quickAbout": "A first ever Angular conference in beautiful Prague, focused on getting local community up and ready for Angular 2",
@@ -45,7 +48,7 @@
         {
           "name": "ngParty Team",
           "job": "Organisers",
-          "picture": "assets/images/ng-party-logo-red_tiny.png",
+          "picture": "assets/images/ngBigParty_tiny.png",
           "talk": {
             "title": "Keynote",
             "time": "5:00 - 5:10pm",
@@ -174,13 +177,12 @@
           }
         },
         {
-          "name": "Johannes Weber",
-          "job": "UI Engineer at ForgeRock / GDE",
+          "name": "David Amend",
+          "job": "TBA",
           "bio": [
-            "Johannes is a passionated developer and adviser in the field of web technologies spotlighted on enterprise JS apps.",
-            "He has spent more than 12 years in front- and backend development and works for Mayflower GmbH (Munich, Germany) where he focuses on the migration of SPA and MPA. In his free time he organizes the AngularJS Munich and ReactJS Munich meetups."
+            "TBA"
           ],
-          "picture": "assets/images/speakers/johannes-weber.jpg",
+          "picture": "assets/images/speakers/david-amend.jpg",
           "talk": {
             "title": "Typescript",
             "time": "5:40 - 6:10pm",
@@ -198,7 +200,7 @@
           "name": "Sebastian Witalec",
           "job": "Telerik",
           "bio": [
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti dignissimos dolore, enim et eum excepturi expedita inventore, minus molestiae neque nostrum odio officiis sint unde velit, voluptas voluptatem. Accusamus animi at est et exercitationem impedit ipsam officia quisquam sed? Aliquid aut dignissimos dolores ipsam officiis porro quidem repudiandae tempora?"
+            "TBA"
           ],
           "picture": "assets/images/speakers/sebastian-witalec.jpg",
           "talk": {
@@ -206,7 +208,7 @@
             "time": "8:40 - 9:10pm",
             "order": 7,
             "description": [
-              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deleniti dignissimos dolore, enim et eum excepturi expedita inventore, minus molestiae neque nostrum odio officiis sint unde velit, voluptas voluptatem. Accusamus animi at est et exercitationem impedit ipsam officia quisquam sed? Aliquid aut dignissimos dolores ipsam officiis porro quidem repudiandae tempora?"
+              "TBA"
             ]
           },
           "contact": {
@@ -259,16 +261,16 @@
         "ngBigParty would not be possible without the kind support of these companies."
       ],
       "footer":[
-        "We are looking for sponsors! Help us make this experience for the attendees even more awesome! - If you're interested,"
+        ""
       ],
       "companies":[
         {
-          "name": "EmbedIt",
+          "description": "General Sponsor",
           "logo": "assets/images/sponsors/embedit.png",
           "web": "http://embedit.cz"
         },
         {
-          "name": "Toptal",
+          "description": "Sponsor",
           "logo": "assets/images/sponsors/toptal.png",
           "web":"http://toptal.com"
         }
