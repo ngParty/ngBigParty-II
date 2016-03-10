@@ -12,6 +12,7 @@ import { provide } from 'ng-metadata/core';
 
 import { AppComponent } from './app.component.ts';
 import { Configure } from './app.config';
+import { AppService } from './app.service';
 
 const ngMaterialSvg = 'material.svgAssetsCache';
 export const AppModule = angular.module( 'app', [
@@ -21,4 +22,6 @@ export const AppModule = angular.module( 'app', [
     ngMaterialSvg
   ] )
   .config( Configure )
-  .directive( ...provide( AppComponent ) );
+  .service( ...provide( AppService ) )
+  .directive( ...provide( AppComponent ) )
+  ;
