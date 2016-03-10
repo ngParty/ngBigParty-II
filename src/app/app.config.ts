@@ -3,14 +3,18 @@ export class Configure {
   static $inject = [
     '$sceDelegateProvider',
     '$mdIconProvider',
-    '$mdThemingProvider'
+    '$mdThemingProvider',
+    '$compileProvider'
   ];
 
   constructor(
     $sceDelegateProvider: ng.ISCEDelegateProvider,
     $mdIconProvider: ng.material.IIconProvider,
-    $mdThemingProvider: ng.material.IThemingProvider
+    $mdThemingProvider: ng.material.IThemingProvider,
+    $compileProvider: ng.ICompileProvider
   ) {
+
+    $compileProvider.debugInfoEnabled( false );
 
     $sceDelegateProvider.resourceUrlWhitelist( [
       'self',
