@@ -1,4 +1,5 @@
 import { Component, OnInit, Inject } from 'ng-metadata/core';
+import { AppService } from './app.service';
 
 @Component( {
   selector: `app`,
@@ -9,22 +10,23 @@ export class AppComponent implements OnInit {
   selected = null;
   users = [];
   data: any;
+  social = this.appSvc.getSocialLinks();
 
   constructor(
     @Inject( '$mdSidenav' ) private $mdSidenav: ng.material.ISidenavService,
-    @Inject( '$mdBottomSheet' ) private $mdBottomSheet: ng.material.IBottomSheetService,
     @Inject( '$mdMedia' ) private $mdMedia: ng.material.IMedia,
-    @Inject( '$log' ) private $log: ng.ILogService,
-    @Inject( '$scope' ) private $scope: ng.IScope,
-    @Inject( '$location' ) private $location: ng.ILocationService,
-    @Inject( '$anchorScroll' ) private $anchorScroll: ng.IAnchorScrollService,
-    @Inject( '$http' ) private $http: ng.IHttpService
+    @Inject( AppService ) private appSvc: AppService
   ) {}
 
   ngOnInit() {
+    this.appSvc.getData().then( ( response )=>this.data = response.data )
+  }
 
-    // Load all data
-    this.$http.get( '/ngBigParty-II/assets/data.json' ).then( ( response )=>this.data = response.data );
+  openShareEventWindow( href: string, $event: Event ) {
+
+    $event.preventDefault();
+
+    this.appSvc.createShareWindow( href );
 
   }
 
@@ -33,10 +35,7 @@ export class AppComponent implements OnInit {
    */
   toggleSidenav( anchor?: string ) {
 
-    if ( angular.isString( anchor ) ) {
-      this.$location.hash( anchor );
-      // this.$anchorScroll(anchor);
-    }
+    this.appSvc.navigateToAnchor(anchor);
     this.$mdSidenav( 'left' ).toggle();
 
   }

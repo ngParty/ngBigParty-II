@@ -4,7 +4,10 @@ import { Injectable, Inject } from 'ng-metadata/core';
 export class AppService {
 
   constructor(
-    @Inject('$location') private $location: ng.ILocationService
+    @Inject( '$window' ) private $window: ng.IWindowService,
+    @Inject( '$http' ) private $http: ng.IHttpService,
+    @Inject( '$location' ) private $location: ng.ILocationService,
+    @Inject( '$anchorScroll' ) private $anchorScroll: ng.IAnchorScrollService
   ){}
 
   private _siteUrl = this.$location.absUrl().replace( /#+.*/, '' );
@@ -33,6 +36,25 @@ export class AppService {
     }
   };
 
+  getData(): ng.IPromise<any>{
+    return this.$http.get( '/ngBigParty-II/assets/data.json' );
+  }
+
+  createShareWindow( href: string ) {
+    this.$window.open(
+      href,
+      '',
+      'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'
+    );
+  }
+
+  navigateToAnchor( anchor?: string ) {
+    if ( angular.isString( anchor ) ) {
+      this.$location.hash( anchor );
+      // this.$anchorScroll(anchor);
+    }
+  }
+
   getSocialLinks(){
     return {
       twitter: this.createTwitterLink(),
@@ -45,7 +67,7 @@ export class AppService {
 
     const params = this._social.google.params;
     const shareUrl = this._social.google.shareUrl;
-    return this._builShareLink(shareUrl,params,[]);
+    return this._buildShareLink(shareUrl,params,[]);
 
   }
 
@@ -54,7 +76,7 @@ export class AppService {
     const params = this._social.fb.params;
     const shareUrl = this._social.fb.shareUrl;
 
-    return this._builShareLink(shareUrl,params,[
+    return this._buildShareLink(shareUrl,params,[
       // 'sdk=joey',
       'display=popup'
       // 'ref=plugin',
@@ -68,11 +90,11 @@ export class AppService {
     const params = this._social.twitter.params;
     const shareUrl = this._social.twitter.shareUrl;
 
-    return this._builShareLink(shareUrl,params,[]);
+    return this._buildShareLink(shareUrl,params,[]);
 
   }
 
-  private _builShareLink( baseUrl: string, params: Object, query = [] ): string {
+  private _buildShareLink( baseUrl: string, params: Object, query = [] ): string {
 
     for(const qkey in params){
       query.push(`${qkey}=${encodeURIComponent(params[qkey])}`);

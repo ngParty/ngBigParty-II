@@ -39,6 +39,7 @@
           <p>{{ ::$ctrl.data.main.quickAbout }}</p>
           <md-button
             ng-href="{{ ::$ctrl.data.main.getTicketLink }}"
+            aria-label="{{ ::$ctrl.data.main.getTicketBtn }}"
             class="md-primary md-raised md-accent hero-btn"
           >
             {{ ::$ctrl.data.main.getTicketBtn }}
@@ -239,25 +240,25 @@
     </md-fab-trigger>
     <md-fab-actions>
       <md-button
-        aria-label="Twitter" class="md-fab md-raised md-mini"
-        href="https://twitter.com/intent/tweet?hashtags=devsUnited&original_referer=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&ref_src=twsrc%5Etfw&text=1st%20ever%20%23Angular2%20conference%20in%20%23Prague%20Czech%20Republic.%20Grab%20your%20ticket%20while%20you%20can!&tw_p=tweetbutton&url=http%3A%2F%2Fngparty.cz%2FngBigParty-II&via=ngPartyCz"
-        data-text="1st ever #Angular2 conference in #Prague Czech Republic. Grab your ticket while you can!"
-        data-via="ngPartyCz"
-        data-hashtags="devsUnited"
+        aria-label="Twitter"
+        class="md-fab md-raised md-mini"
+        ng-href="{{ ::$ctrl.social.twitter }}"
       >
         <md-icon md-svg-src="twitter" aria-label="Twitter"></md-icon>
       </md-button>
       <md-button
-        aria-label="Facebook" class="md-fab md-raised md-mini fb-share-button"
-        href="https://www.facebook.com/sharer/sharer.php?sdk=joey&u=https%3A%2F%2Fwww.ngparty.cz%2FngBigParty-II&display=popup&ref=plugin&src=share_button"
-        onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"
+        aria-label="Facebook"
+        class="md-fab md-raised md-mini fb-share-button"
+        ng-href="{{ ::$ctrl.social.fb }}"
+        ng-click="$ctrl.openShareEventWindow($ctrl.social.fb,$event)"
       >
         <md-icon md-svg-src="facebook" aria-label="Facebook"></md-icon>
       </md-button>
       <md-button
-        aria-label="G+" class="md-fab md-raised md-mini"
-        href="https://plus.google.com/share?url=http://www.ngparty.cz/ngBigParty-II"
-        onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"
+        aria-label="G+"
+        class="md-fab md-raised md-mini"
+        ng-href="{{ ::$ctrl.social.google }}"
+        ng-click="$ctrl.openShareEventWindow($ctrl.social.google,$event)"
       >
         <md-icon md-svg-src="google_plus" aria-label="G+"></md-icon>
       </md-button>
