@@ -178,9 +178,9 @@
         },
         {
           "name": "David Amend",
-          "job": "TBA",
+          "job": "Solution Architect bei BNP Paribas International",
           "bio": [
-            "TBA"
+            "Passionated Web Specialist Architect to migrate teams from traditional Java Stack to modern web technologies with a strong interest in Agile development"
           ],
           "picture": "assets/images/speakers/david-amend.jpg",
           "talk": {
@@ -200,7 +200,8 @@
           "name": "Sebastian Witalec",
           "job": "Telerik",
           "bio": [
-            "TBA"
+            "Sebastian Witalec is a Solution Engineer and a Technical Evangelist for Telerik with over 6 years of experience in software engineering and architecture..",
+            "Sebastian has passion for all types of technologies. He is always happy to learn about the new stuff and to pass the knowledge as far as his voice (or the wire) can take him. Sebastian is based in London, UK actively working with various Dev communities in the area. When not acting techie he is a massive football fan/player (probably bigger at heart than skills)."
           ],
           "picture": "assets/images/speakers/sebastian-witalec.jpg",
           "talk": {
@@ -208,7 +209,8 @@
             "time": "8:40 - 9:10pm",
             "order": 7,
             "description": [
-              "TBA"
+              "NativeScript is a free and open source JavaScript framework for building native iOS, Android, and (soon) Windows Phone apps. But I know what you’re thinking: another way of building apps? What makes NativeScript special?",
+              "Curious about how it all works? Come learn! Architectures will be explained; apps will be built; and fun will be had by all."
             ]
           },
           "contact": {
