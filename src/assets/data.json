@@ -180,19 +180,25 @@
           "name": "David Amend",
           "job": "Solution Architect at BNP Paribas International",
           "bio": [
-            "Passionated Web Specialist Architect to migrate teams from traditional Java Stack to modern web technologies with a strong interest in Agile development"
+            "Passionated Web Developer & Architect, who's mission is to migrate teams from traditional Java stack to modern web technologies in the banking industry.",
+            "Together with Johannes Weber, organizer of AngularJS Meetup in Munich with over 790 members http://www.meetup.com/AngularJS-Munich/",
+            "Check also http://www.meetup.com/IT-Fuckup-Munich/ if you are around for a visit of the Octoberfest."
           ],
           "picture": "assets/images/speakers/david-amend.jpg",
           "talk": {
-            "title": "Typescript",
+            "title": "TypeScript in practice: Showcase & Lessons learned in projects.",
             "time": "5:40 - 6:10pm",
             "order": 2,
             "description": [
-              "Everything you need to know about Typescript. We will show you how powerful optional types are and how you can benefit from them without hassle."
+              "You know that feeling, when you want to refactor something in your huge Javascript app right? It can't so hard you say, suddenly your worst nightmares become reality...",
+              "Well maybe we can sleep better and be more productive with this thing called Typescript...",
+              "David is here to tell you why & how you should continue to use it for Angular 2.0, from a perspective of enterprise scale teams & projects",
+              "Let's rock!"
             ]
           },
           "contact": {
-            "github": "https://github.com/raDiesle"
+            "github": "https://github.com/raDiesle",
+            "twitter": "https://twitter.com/amend_David"
           }
         },
         {
