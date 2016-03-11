@@ -259,7 +259,11 @@
     "venue": {
       "id":"venue",
       "title": "Venue",
-      "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.5283399442887!2d14.400084816107046!3d50.076394222126964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94fecc6f8d2d%3A0x2068c37eab9b5371!2sImpact+Hub+Praha!5e0!3m2!1sen!2ssk!4v1456218580325"
+      "map":{
+        "url": "https://www.google.com/maps/place/Impact+Hub+Praha/@50.076391,14.402273,16z/data=!4m2!3m1!1s0x0:0x2068c37eab9b5371?hl=en-US",
+        "image": "/ngBigParty-II/assets/images/ngBigParty-map.png",
+        "caption": "Impact Hub Praha Drtinova 557/10, 150 00 Praha 5-Smíchov, Czech Republic"
+      }
     },
     "sponsors": {
       "id":"sponsors",

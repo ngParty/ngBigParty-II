@@ -153,11 +153,11 @@
 
       <div layout="row" layout-align="center">
 
-        <iframe
-          flex flex-gt-sm="80"
-          ng-src="{{ ::$ctrl.data.sections.venue.map }}"
-          frameborder="0" style="border:0" height="400" allowfullscreen
-        ></iframe>
+        <a
+          ng-href="{{ ::$ctrl.data.sections.venue.map.url }}"
+        >
+          <img ng-src="{{ ::$ctrl.data.sections.venue.map.image }}" alt="{{ ::$ctrl.data.sections.venue.map.caption }}" >
+        </a>
 
       </div>
 
