@@ -294,6 +294,9 @@ md-list-item{
   top: 400px;  /* your iframe height */
   margin-top: -400px;  /* your iframe height */
 }
+.scroll-off{
+  pointer-events: none;
+}
 .img-responsive{
   display: block;
   max-width: 100%;
