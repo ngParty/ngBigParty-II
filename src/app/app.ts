@@ -13,6 +13,8 @@ import { provide } from 'ng-metadata/core';
 import { AppComponent } from './app.component.ts';
 import { Configure } from './app.config';
 import { AppService } from './app.service';
+import { MapComponent } from './components/map/map.component';
+import { MapHandlerDirective } from './components/map/map-handler.directive';
 
 const ngMaterialSvg = 'material.svgAssetsCache';
 export const AppModule = angular.module( 'app', [
@@ -24,4 +26,6 @@ export const AppModule = angular.module( 'app', [
   .config( Configure )
   .service( ...provide( AppService ) )
   .directive( ...provide( AppComponent ) )
+  .directive( ...provide( MapComponent ) )
+  .directive( ...provide( MapHandlerDirective ) )
   ;

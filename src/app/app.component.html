@@ -151,15 +151,7 @@
     >
       <h3 class="md-display-1">{{ ::$ctrl.data.sections.venue.title }} <md-icon>room</md-icon></h3>
 
-      <div layout="row" layout-align="center">
-
-        <a
-          ng-href="{{ ::$ctrl.data.sections.venue.map.url }}"
-        >
-          <img ng-src="{{ ::$ctrl.data.sections.venue.map.image }}" alt="{{ ::$ctrl.data.sections.venue.map.caption }}" >
-        </a>
-
-      </div>
+      <np-map src="::$ctrl.data.sections.venue.map" layout="row" layout-align="center"></np-map>
 
     </section>
 
