@@ -131,7 +131,7 @@
         },
         {
           "name": "Viliam Elischer",
-          "job": "Software engineer at ngParty",
+          "job": "Software engineer at ZOOM international",
           "bio": [
             "software developer, open-source contributor, meetup/conference speaker, community lover.",
             "Core ngPartyCz member and contributor with passion for functional programming",
@@ -154,7 +154,7 @@
         },
         {
           "name": "Maxim Salnikov",
-          "job": "UI Engineer at ForgeRock / GDE",
+          "job": "UI Engineer at ForgeRock / #GDE",
           "bio": [
             "Maxim is Oslo-based web UI developer, a Google Developer Expert with strong passion to mobile. He has 10+ years experience in development front-ends for complex web applications. He knows everything about web front-end: starting from user interfaces prototyping, going through HTML/CSS/JS implementation and finishing with architecting RESTful APIs.",
             "Working daily with web front-end technologies he is happy to experiment with the same stack for building hybrid mobile apps using latest hybrid frameworks. On evenings he runs Norway’s largest meetups dedicated to web front-end: Framsia, AngularJS Oslo. Also he is leader of Norway's biggest community dedicated to mobile development (Mobile Meetup Oslo) and currently working on organizing conference for mobile developers in 2016.",
@@ -202,30 +202,35 @@
           }
         },
         {
-          "name": "Sebastian Witalec",
-          "job": "Telerik",
+          "name": "Julian Steiner",
+          "job": "Progress/Telerik",
           "bio": [
-            "Sebastian Witalec is a Solution Engineer and a Technical Evangelist for Telerik with over 6 years of experience in software engineering and architecture..",
-            "Sebastian has passion for all types of technologies. He is always happy to learn about the new stuff and to pass the knowledge as far as his voice (or the wire) can take him. Sebastian is based in London, UK actively working with various Dev communities in the area. When not acting techie he is a massive football fan/player (probably bigger at heart than skills)."
+            "Julian is a full-stack software developer by trade. He is helping Progress/Telerik customers finding the best solutions, while spreading the good word for Telerik.",
+            "He has been using AngularJS in production ever since IE7 was still officially supported and 1.0 was still a Release Candidate."
           ],
-          "picture": "assets/images/speakers/sebastian-witalec.jpg",
+          "picture": "assets/images/speakers/julian-steiner.jpg",
           "talk": {
-            "title": "Angular 2 + Nativescript",
+            "title": "Building mobile apps with Angular2 and NativeScript",
             "time": "8:45 - 9:10pm",
             "order": 7,
             "description": [
-              "NativeScript is a free and open source JavaScript framework for building native iOS, Android, and (soon) Windows Phone apps. But I know what you’re thinking: another way of building apps? What makes NativeScript special?",
+              "NativeScript is a free and open source JavaScript framework for building native iOS, Android, and Windows Phone apps. Add to that Angular 2.0 with TypeScript and you will get a truly amazing combination. But I know what you’re thinking: another way of building apps? What makes NativeScript special?",
+              "Here are a few cool things:",
+              "- Direct access to native APIs—no plugins required. Want to create a file on Android? Run new java.io.File(), in JavaScript!",
+              "- Completely native performance through the use of a JavaScript bridge natively available on all three mobile platforms.",
+              "- Cross-platform libraries for common use cases. Need to call a JSON API? Run http.getJSON",
+              "- Style native apps using CSS. Yep, that’s actually a thing.",
               "Curious about how it all works? Come learn! Architectures will be explained; apps will be built; and fun will be had by all."
             ]
           },
           "contact": {
-            "github": "https://github.com/sebawita",
-            "twitter": "https://twitter.com/sebawita"
+            "github": "https://github.com/steiner_j",
+            "twitter": "https://twitter.com/steiner_j"
           }
         },
         {
           "name": "Christoffer Noring",
-          "job": "Software Developer, Blogger, Educator",
+          "job": "Software Developer, Blogger, Educator / #GDE",
           "bio": [
             "Developer since his 10 years..., organizer for 1100+ people for the following groups:",
             "- Angular Gothenburg",
