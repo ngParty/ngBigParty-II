@@ -1,0 +1,316 @@
+{
+  "ngParty": {
+    "logo": {
+      "tiny":"assets/images/ngBigParty_tiny.png",
+      "large":"assets/images/ngBigParty.png"
+    },
+    "copyright":"&copy; ngPartyCz 2016 made with love and ng-metadata",
+    "contact": {
+      "email": "mailto:info@ngparty.cz"
+    },
+    "links":{
+      "social":{
+        "github": "https://github.com/ngParty",
+        "meetup": "http://www.meetup.com/ngParty",
+        "slack": "http://slack.ngparty.cz",
+        "twitter": "https://twitter.com/ngPartyCz",
+        "google": "https://plus.google.com/communities/112542439741592692861/stream/6a8ebe35-3de1-4736-9d28-712dae5fd286"
+      }
+    }
+  },
+  "main": {
+    "title": "BigParty II",
+    "subtitle": "Angular 2 is the new Angular",
+    "date": "30th March, Prague",
+    "quickAbout": "A first ever Angular conference in beautiful Prague, focused on getting local community up and ready for Angular 2",
+    "getTicketLink": "//www.meetup.com/ngParty/events/228604044",
+    "getTicketBtn": "get tickets"
+  },
+  "sections": {
+    "home": {
+      "id":"home",
+      "title": "Home"
+    },
+    "whatToExpect": {
+      "id":"what-to-expect",
+      "title": "What to expect",
+      "content": [
+        "Event focused on Angular 2 promo and related technologies which are under the hood ( Rx, Typescript )",
+        "We wanna spread the message to Czech community, that Angular 2 is the new and shiny super hero, and you shouldn't be afraid to use his powers to create literally anything ( web sites/ web apps/ hybrid apps/ native apps ... )",
+        "We will cover the basics for Angular 2, Typescript, Rx, then continue with some deeper principles, finishing with going outside the web browser to native platform",
+        "Angular 2 is here to stay baby! for a looong time, I even heard that they will use it in a galaxy far, far away..."
+      ]
+    },
+    "speakers": {
+      "id":"speakers",
+      "title": "Speakers",
+      "content": [
+        {
+          "name": "ngParty Team",
+          "job": "Organisers",
+          "picture": "assets/images/ngBigParty_tiny.png",
+          "talk": {
+            "title": "Keynote",
+            "time": "5:00 - 5:10pm",
+            "order": 0,
+            "description": [
+              "Well, ngParty was founded 11 months ago and we already achieved many great thinks for our community!",
+              "This is just another awesome achievement of spreading know how and knowledge, throughout local Czech dev community and outside our country borders",
+              "We have a very specific one word saying in our community: #devsUnited and we mean it!",
+              "Let's get this big party started!"
+            ]
+          }
+        },
+        {
+          "name": "break",
+          "job": "dinner",
+          "picture": "assets/images/ngBigParty_tiny.png",
+          "talk": {
+            "title": "ngParty Dinner",
+            "time": "7:25 - 8:00pm",
+            "order": 5,
+            "description": [
+              "Not enough minerals! We need focus! Let's eat something good and have a little chat before 2nd half of big Party yo!"
+            ]
+          }
+        },
+        {
+          "name": "Igor Minár",
+          "job": "Angular team lead at Google",
+          "bio": [
+            "Igor is a software engineer at Google. He is a lead on the Angular project, practitioner of test driven development, open source enthusiast, hacker.",
+            "In his free time, Igor enjoys spending time with his wife and two kids, doing outdoor activities (including but not limited to sports, gardening and building retaining walls)."
+          ],
+          "picture": "assets/images/speakers/igor-minar.png",
+          "talk": {
+            "title": "Angular 2 behind the scenes",
+            "time": "6:20 - 6:50pm",
+            "order": 3,
+            "description": [
+              "We will ask Igor everything about Angular, go behind the scenes of design decisions and much more.",
+              "You don't wanna miss this one!",
+              "This session will be on Air via Google Hangouts"
+            ]
+          },
+          "contact": {
+            "github": "https://github.com/IgorMinar",
+            "twitter": "https://twitter.com/IgorMinar"
+          }
+        },
+        {
+          "name": "Martin Hochel",
+          "job": "Software engineer at EmbedIT",
+          "bio": [
+            "Martin is a software engineer with strong passion for Typescript and clean code. Currently he is building great things at EmbedIT (Prague, Czech Republic).",
+            "He loves contributing to open source and is the creator of the ngMetadata library for Angular and also runs ngParty meetup group in Prague.",
+            "Martin loves to travel the world and meeting new people  at conferences. When he’s not busy preparing the next meetup or talk, you might find him outside on his skate/snow/wake boards (depends on weather conditions yo!)"
+          ],
+          "picture": "assets/images/speakers/martin-hochel.jpg",
+          "talk": {
+            "title": "Angular 2 fundamentals",
+            "time": "5:45 - 6:10pm",
+            "order": 2,
+            "description": [
+              "Angular 1 helped us to build amazing apps with ease... but today's web apps are facing new challenges, going even beyond web platform.",
+              "How to solve them you may ask... Well let me tell you that there is a new Angular. Angular 2 at your service...",
+              "Martin will tell you all you need to know to get started with this new and shinny multi-platform framework"
+            ]
+          },
+          "contact": {
+            "github": "https://github.com/Hotell",
+            "twitter": "https://twitter.com/martin_hotell"
+          }
+        },
+        {
+          "name": "Mario Vejlupek",
+          "job": "Software engineer at EmbedIT",
+          "bio": [
+            "Mario is DevOps trapped in Developer body. After few years of debugging bugs as hosting administrator, he decided to start creating/fixing his own bugs. Started as PHP noob, fell in love with Ruby and reborn as JavaScript developer. Currently he is professional coffee taster at EmbedIT.",
+            "Mario loves patterns, logic and simplicity. He spend most of his productive time contributing to opensource and keep ngParty meetup group up and running."
+          ],
+          "picture": "assets/images/speakers/mario-vejlupek.jpg",
+          "talk": {
+            "title": "Angular 2 and Devstack",
+            "time": "8:00 - 8:25pm",
+            "order": 6,
+            "description": [
+              "Angular 2 is indeed awesome, don't you think?! How can I start using it right now for building new and shiny apps? Do I need to know all these things like Gulp/Grunt/Whatnot? Don't fear fellow developers! Mario will show you how to get up and running with production ready dev stack, without hassle. Spoiler alert: Webpack batteries included"
+            ]
+          },
+          "contact": {
+            "github": "https://github.com/elmariofredo",
+            "twitter": "https://twitter.com/mariovejlupek"
+          }
+        },
+        {
+          "name": "Viliam Elischer",
+          "job": "Software engineer at ZOOM international",
+          "bio": [
+            "software developer, open-source contributor, meetup/conference speaker, community lover.",
+            "Core ngPartyCz member and contributor with passion for functional programming",
+            "What else do you need to know yo?"
+          ],
+          "picture": "assets/images/speakers/viliam-elischer.jpg",
+          "talk": {
+            "title": "RxJS 101: What you need to know to get started with RxJS tomorrow",
+            "time": "8:35 - 9:00pm",
+            "order": 7,
+            "description": [
+              "What is this thing called RxJs? What is a Stream or an Observable?",
+              "Viliam will explain all those buzzwords and make you understand why they are so important, not only in Angular world..."
+            ]
+          },
+          "contact": {
+            "github": "https://github.com/vire",
+            "twitter": "https://twitter.com/vireliam"
+          }
+        },
+        {
+          "name": "Maxim Salnikov",
+          "job": "UI Engineer at ForgeRock / #GDE",
+          "bio": [
+            "Maxim is Oslo-based web UI developer, a Google Developer Expert with strong passion to mobile. He has 10+ years experience in development front-ends for complex web applications. He knows everything about web front-end: starting from user interfaces prototyping, going through HTML/CSS/JS implementation and finishing with architecting RESTful APIs.",
+            "Working daily with web front-end technologies he is happy to experiment with the same stack for building hybrid mobile apps using latest hybrid frameworks. On evenings he runs Norway’s largest meetups dedicated to web front-end: Framsia, AngularJS Oslo. Also he is leader of Norway's biggest community dedicated to mobile development (Mobile Meetup Oslo) and currently working on organizing conference for mobile developers in 2016.",
+            "likes to travel the world visiting developers events and open for offers to share his experiences and knowledge by speaking at conferences and meetups."
+          ],
+          "picture": "assets/images/speakers/maxim-salnikov.png",
+          "talk": {
+            "title": "Future apps with Angular2 and companions: Ionic2 + Firebase",
+            "time": "7:00 - 7:25pm",
+            "order": 4,
+            "description": [
+              "Do you want to look into the future? How will we create web and mobile applications in 2017?",
+              "Well, it's possible even without inventing time machine. Let's just take alpha/beta-versions of the most promising frameworks, add some magic and cook the app. The reference app for all the developers. Web or mobile - who cares, there will be only fine line between these in nearest future.",
+              "Sounds ambitious? 100%! But we love ventures and being on cutting edge of web technologies, so let's go for it!"
+            ]
+          },
+          "contact": {
+            "github": "https://github.com/webmaxru",
+            "twitter": "https://twitter.com/webmaxru"
+          }
+        },
+        {
+          "name": "David Amend",
+          "job": "Solution Architect at BNP Paribas International",
+          "bio": [
+            "Passionated Web Developer & Architect, who's mission is to migrate teams from traditional Java stack to modern web technologies in the banking industry.",
+            "Together with Johannes Weber, organizer of AngularJS Meetup in Munich with over 790 members http://www.meetup.com/AngularJS-Munich/",
+            "Check also http://www.meetup.com/IT-Fuckup-Munich/ if you are around for a visit of the Octoberfest."
+          ],
+          "picture": "assets/images/speakers/david-amend.jpg",
+          "talk": {
+            "title": "TypeScript in practice: Showcase & Lessons learned in projects.",
+            "time": "5:10 - 5:35pm",
+            "order": 1,
+            "description": [
+              "You know that feeling, when you want to refactor something in your huge Javascript app right? It can't so hard you say, suddenly your worst nightmares become reality...",
+              "Well maybe we can sleep better and be more productive with this thing called Typescript...",
+              "David is here to tell you why & how you should continue to use it for Angular 2.0, from a perspective of enterprise scale teams & projects",
+              "Let's rock!"
+            ]
+          },
+          "contact": {
+            "github": "https://github.com/raDiesle",
+            "twitter": "https://twitter.com/amend_David"
+          }
+        },
+        {
+          "name": "Julian Steiner",
+          "job": "Progress/Telerik",
+          "bio": [
+            "Julian is a full-stack software developer by trade. He is helping Progress/Telerik customers finding the best solutions, while spreading the good word for Telerik.",
+            "He has been using AngularJS in production ever since IE7 was still officially supported and 1.0 was still a Release Candidate."
+          ],
+          "picture": "assets/images/speakers/julian-steiner.jpg",
+          "talk": {
+            "title": "Building mobile apps with Angular2 and NativeScript",
+            "time": "9:10 - 9:35pm",
+            "order": 8,
+            "description": [
+              "NativeScript is a free and open source JavaScript framework for building native iOS, Android, and Windows Phone apps. Add to that Angular 2.0 with TypeScript and you will get a truly amazing combination. But I know what you’re thinking: another way of building apps? What makes NativeScript special?",
+              "Here are a few cool things:",
+              "- Direct access to native APIs—no plugins required. Want to create a file on Android? Run new java.io.File(), in JavaScript!",
+              "- Completely native performance through the use of a JavaScript bridge natively available on all three mobile platforms.",
+              "- Cross-platform libraries for common use cases. Need to call a JSON API? Run http.getJSON",
+              "- Style native apps using CSS. Yep, that’s actually a thing.",
+              "Curious about how it all works? Come learn! Architectures will be explained; apps will be built; and fun will be had by all."
+            ]
+          },
+          "contact": {
+            "twitter": "https://twitter.com/steiner_j"
+          }
+        },
+        {
+          "name": "Christoffer Noring",
+          "job": "Software Developer, Blogger, Educator / #GDE",
+          "bio": [
+            "Developer since his 10 years..., organizer for 1100+ people for the following groups:",
+            "- Angular Gothenburg",
+            "- Frontend Gothenburg",
+            "- Software Craftsmanship Gothenburg",
+            "- Angular Stockholm",
+            "and btw the friendliest developer you will ever meet, possibly :)"
+          ],
+          "picture": "assets/images/speakers/christoffer-noring.jpg",
+          "talk": {
+            "title": "Angular Universal",
+            "time": "9:45 - 10:10pm",
+            "order": 9,
+            "description": [
+              "Angular 2 and server side rendering? Is this a joke or a beautiful dream? Time to wake up fellow developers! Let's talk about server side rendering and what changes and what doesn't change when you go serverside... yes with Angular 2",
+              "Christoffer will cover basic concepts, starting from installing angular 2 server plugin, to finishing up with how to setup your app to be rendered through express and NodeJS.",
+              "Looks good right? you bet! Angular 2 is your friend... from now on, also on back-end..."
+            ]
+          },
+          "contact": {
+            "github": "https://github.com/softchris",
+            "twitter": "https://twitter.com/chris_noring"
+          }
+        }
+      ]
+    },
+    "program": {
+      "id":"program",
+      "title": "Program"
+    },
+    "venue": {
+      "id":"venue",
+      "title": "Venue",
+      "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.5283399442887!2d14.400084816107046!3d50.076394222126964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94fecc6f8d2d%3A0x2068c37eab9b5371!2sImpact+Hub+Praha!5e0!3m2!1sen!2ssk!4v1456218580325"
+    },
+    "sponsors": {
+      "id":"sponsors",
+      "title": "Sponsors",
+      "content":[
+        "ngBigParty would not be possible without the kind support of these companies."
+      ],
+      "footer":[
+        ""
+      ],
+      "companies":[
+        {
+          "description": "General Sponsor",
+          "logo": "assets/images/sponsors/embedit.png",
+          "web": "http://embedit.cz"
+        },
+        {
+          "description": "Sponsor",
+          "logo": "assets/images/sponsors/toptal.png",
+          "web":"http://toptal.com"
+        },
+        {
+          "description": "Sponsor",
+          "logo": "assets/images/sponsors/jetbrains.png",
+          "web": "http://jetbrains.com"
+        }
+      ]
+    },
+    "codeOfConduct": {
+      "id":"code-of-conduct",
+      "title": "Code of Conduct",
+      "content":[
+        "All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody."
+      ]
+    }
+  }
+}
