@@ -62,6 +62,19 @@
           }
         },
         {
+          "name": "break",
+          "job": "dinner",
+          "picture": "assets/images/ngBigParty_tiny.png",
+          "talk": {
+            "title": "ngParty Dinner",
+            "time": "7:25 - 8:00pm",
+            "order": 5,
+            "description": [
+              "Not enough minerals! We need focus! Let's eat something good and have a little chat before 2nd half of big Party yo!"
+            ]
+          }
+        },
+        {
           "name": "Igor Minár",
           "job": "Angular team lead at Google",
           "bio": [
@@ -118,8 +131,8 @@
           "picture": "assets/images/speakers/mario-vejlupek.jpg",
           "talk": {
             "title": "Angular 2 and Devstack",
-            "time": "7:35 - 8:00pm",
-            "order": 5,
+            "time": "8:00 - 8:25pm",
+            "order": 6,
             "description": [
               "Angular 2 is indeed awesome, don't you think?! How can I start using it right now for building new and shiny apps? Do I need to know all these things like Gulp/Grunt/Whatnot? Don't fear fellow developers! Mario will show you how to get up and running with production ready dev stack, without hassle. Spoiler alert: Webpack batteries included"
             ]
@@ -140,8 +153,8 @@
           "picture": "assets/images/speakers/viliam-elischer.jpg",
           "talk": {
             "title": "RxJS 101: What you need to know to get started with RxJS tomorrow",
-            "time": "8:10 - 8:35pm",
-            "order": 6,
+            "time": "8:35 - 9:00pm",
+            "order": 7,
             "description": [
               "What is this thing called RxJs? What is a Stream or an Observable?",
               "Viliam will explain all those buzzwords and make you understand why they are so important, not only in Angular world..."
@@ -211,8 +224,8 @@
           "picture": "assets/images/speakers/julian-steiner.jpg",
           "talk": {
             "title": "Building mobile apps with Angular2 and NativeScript",
-            "time": "8:45 - 9:10pm",
-            "order": 7,
+            "time": "9:10 - 9:35pm",
+            "order": 8,
             "description": [
               "NativeScript is a free and open source JavaScript framework for building native iOS, Android, and Windows Phone apps. Add to that Angular 2.0 with TypeScript and you will get a truly amazing combination. But I know what you’re thinking: another way of building apps? What makes NativeScript special?",
               "Here are a few cool things:",
@@ -242,8 +255,8 @@
           "picture": "assets/images/speakers/christoffer-noring.jpg",
           "talk": {
             "title": "Angular Universal",
-            "time": "9:20 - 9:45pm",
-            "order": 8,
+            "time": "9:45 - 10:10pm",
+            "order": 9,
             "description": [
               "Angular 2 and server side rendering? Is this a joke or a beautiful dream? Time to wake up fellow developers! Let's talk about server side rendering and what changes and what doesn't change when you go serverside... yes with Angular 2",
               "Christoffer will cover basic concepts, starting from installing angular 2 server plugin, to finishing up with how to setup your app to be rendered through express and NodeJS.",
@@ -285,6 +298,11 @@
           "description": "Sponsor",
           "logo": "assets/images/sponsors/toptal.png",
           "web":"http://toptal.com"
+        },
+        {
+          "description": "Sponsor",
+          "logo": "assets/images/sponsors/jetbrains.png",
+          "web": "http://jetbrains.com"
         }
       ]
     },
