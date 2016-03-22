@@ -1,0 +1,37 @@
+<h3 class="md-display-1">{{ ::$ctrl.title }}</h3>
+
+<md-list layout="column" layout-gt-md="row" layout-wrap>
+
+  <md-list-item
+    flex-gt-md="45"
+    layout-padding=""
+    class="md-3-line md-long-text talk"
+    ng-repeat="speaker in ::$ctrl.speakers | orderBy:'talk.order'"
+  >
+    <img
+      ng-src="{{ ::speaker.picture }}" alt="{{ ::speaker.name }}"
+      class="md-avatar"
+    >
+    <div class="md-list-item-text" style="margin-top: 0">
+
+      <div class="talk__header">
+        <h3 class="talk__title">{{ ::speaker.talk.title }}</h3>
+        <h4 layout="column" layout-gt-xs="row" layout-align-gt-xs="space-between">
+          {{ ::speaker.name }}
+          <time>
+            <md-icon>schedule</md-icon>
+            {{ ::speaker.talk.time }}
+          </time>
+        </h4>
+      </div>
+      <div class="talk__content">
+        <md-icon hide-xs>info_outline</md-icon>
+        <div>
+          <p ng-repeat="description in ::speaker.talk.description">
+            {{ ::description }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </md-list-item>
+</md-list>

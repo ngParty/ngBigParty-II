@@ -15,6 +15,8 @@ import { Configure } from './app.config';
 import { AppService } from './app.service';
 import { MapComponent } from './components/map/map.component';
 import { MapHandlerDirective } from './components/map/map-handler.directive';
+import { ProgramComponent } from './components/program/progam.component';
+import { SpeakersComponent } from './components/speakers/speakers.component';
 
 const ngMaterialSvg = 'material.svgAssetsCache';
 export const AppModule = angular.module( 'app', [
@@ -28,4 +30,6 @@ export const AppModule = angular.module( 'app', [
   .directive( ...provide( AppComponent ) )
   .directive( ...provide( MapComponent ) )
   .directive( ...provide( MapHandlerDirective ) )
+  .directive( ...provide( ProgramComponent ) )
+  .directive( ...provide( SpeakersComponent ) )
   ;

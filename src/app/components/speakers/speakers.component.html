@@ -1,0 +1,34 @@
+<h3 class="md-display-1">{{ ::$ctrl.title }}</h3>
+<div layout="row" layout-wrap="" layout-align-gt-sm="center">
+
+  <md-card
+    ng-repeat="speaker in ::$ctrl.speakers | limitTo:10:2"
+    flex="100" flex-gt-sm="45" flex-gt-md="30"
+  >
+    <md-card-title>
+      <md-card-title-text>
+        <span class="md-headline">{{ ::speaker.name }}</span>
+        <span class="md-subhead">{{ ::speaker.job }}</span>
+      </md-card-title-text>
+      <md-card-title-media>
+        <div class="md-media-md card-media"
+             style="overflow: hidden"
+        >
+          <img
+            class="img-responsive"
+            ng-src="{{ ::speaker.picture }}" alt="{{ ::speaker.name }}">
+        </div>
+      </md-card-title-media>
+    </md-card-title>
+
+    <md-card-content>
+      <p ng-repeat="paragraph in ::speaker.bio" ng-bind-html="::paragraph | linky:'_blank'"></p>
+    </md-card-content>
+    <md-divider></md-divider>
+    <md-card-actions layout="row" layout-align="end center">
+      <md-button ng-if="speaker.contact.twitter" ng-href="{{ ::speaker.contact.twitter }}">twitter</md-button>
+      <md-button ng-href="{{ ::speaker.contact.github }}">github</md-button>
+    </md-card-actions>
+  </md-card>
+
+</div>

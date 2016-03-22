@@ -65,84 +65,20 @@
       id="{{ ::$ctrl.data.sections.speakers.id }}"
       class="section section--grey"
     >
-      <h3 class="md-display-1">{{ ::$ctrl.data.sections.speakers.title }}</h3>
-      <div layout="row" layout-wrap="" layout-align-gt-sm="center">
-
-        <md-card
-          ng-repeat="speaker in ::$ctrl.data.sections.speakers.content | limitTo:10:1"
-          flex="100" flex-gt-sm="45" flex-gt-md="30"
-        >
-          <md-card-title>
-            <md-card-title-text>
-              <span class="md-headline">{{ ::speaker.name }}</span>
-              <span class="md-subhead">{{ ::speaker.job }}</span>
-            </md-card-title-text>
-            <md-card-title-media>
-              <div class="md-media-md card-media"
-                   style="overflow: hidden"
-              >
-                <img
-                  class="img-responsive"
-                  ng-src="{{ ::speaker.picture }}" alt="{{ ::speaker.name }}">
-              </div>
-            </md-card-title-media>
-          </md-card-title>
-
-          <md-card-content>
-            <p ng-repeat="paragraph in ::speaker.bio" ng-bind-html="::paragraph | linky:'_blank'"></p>
-          </md-card-content>
-          <md-divider></md-divider>
-          <md-card-actions layout="row" layout-align="end center">
-            <md-button ng-if="speaker.contact.twitter" ng-href="{{ ::speaker.contact.twitter }}">twitter</md-button>
-            <md-button ng-href="{{ ::speaker.contact.github }}">github</md-button>
-          </md-card-actions>
-        </md-card>
-
-      </div>
+      <np-speakers
+        title="::$ctrl.data.sections.speakers.title"
+        speakers="::$ctrl.data.sections.speakers.content"
+      ></np-speakers>
     </section>
 
     <section
       id="{{ ::$ctrl.data.sections.program.id }}"
       class="section"
     >
-      <h3 class="md-display-1">{{ ::$ctrl.data.sections.program.title }}</h3>
-
-      <md-list layout="column" layout-gt-md="row" layout-wrap>
-
-          <md-list-item
-            flex-gt-md="45"
-            layout-padding=""
-            class="md-3-line md-long-text talk"
-            ng-repeat="speaker in ::$ctrl.data.sections.speakers.content | orderBy:'talk.order'"
-          >
-            <img
-              ng-src="{{ ::speaker.picture }}" alt="{{ ::speaker.name }}"
-              class="md-avatar"
-            >
-            <div class="md-list-item-text" style="margin-top: 0">
-
-              <div class="talk__header">
-                <h3 class="talk__title">{{ ::speaker.talk.title }}</h3>
-                <h4 layout="column" layout-gt-xs="row" layout-align-gt-xs="space-between">
-                  {{ ::speaker.name }}
-                  <time>
-                    <md-icon>schedule</md-icon>
-                    {{ ::speaker.talk.time }}
-                  </time>
-                </h4>
-              </div>
-              <div class="talk__content">
-                <md-icon hide-xs>info_outline</md-icon>
-                <div>
-                  <p ng-repeat="description in ::speaker.talk.description">
-                    {{ ::description }}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </md-list-item>
-        </md-list>
-
+      <np-program
+        title="::$ctrl.data.sections.program.title"
+        speakers="$ctrl.data.sections.speakers.content"
+      ></np-program>
     </section>
 
     <section
