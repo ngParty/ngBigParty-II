@@ -26,8 +26,8 @@
     </md-card-content>
     <md-divider></md-divider>
     <md-card-actions layout="row" layout-align="end center">
-      <md-button ng-if="speaker.contact.twitter" ng-href="{{ ::speaker.contact.twitter }}">twitter</md-button>
-      <md-button ng-href="{{ ::speaker.contact.github }}">github</md-button>
+      <md-button ng-if="::speaker.contact.twitter" ng-href="{{ ::speaker.contact.twitter }}">twitter</md-button>
+      <md-button ng-if="::speaker.contact.github" ng-href="{{ ::speaker.contact.github }}">github</md-button>
     </md-card-actions>
   </md-card>
 
